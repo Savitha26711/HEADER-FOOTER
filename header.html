@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer</title>
+    <link rel="stylesheet" href="header.css"> 
+    <link rel="stylesheet" href="header.js">
+</head>
+<body>
+    <header class="header">
+        <div class="login">
+            <h2>Sign in</h2>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<form name="Form" onsubmit="return validateform()">
+        <h2>sign in </h2>
+        
+        <div class="box">
+            <label>Full Name</label>
+            <input type="text" name="name" id="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+<div class="box">
+            <label>Email Address</label>
+            <input type="text" name="email" id="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+<div class="box">
+            <label>Mobile number</label>
+            <input type="text" name="mobile" id="mobile" maxlength="10">
+            <div class="error" id="mobileErr"></div>
+        </div>
+        <div class="box">
+            <label>Gender</label>
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+            <div class="error" id="genderErr"></div>
+        </div>
+<div class="box">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
+<script src="header.js"></script>
+        <h3>&copy; Contacts </h3>
+        <footer class="footer">
+            <h3>Contact Us</h3>
+            <div class="icons">
+        
+                <a href="tel:8680976673">
+                    <img src="C:\Users\valli\Downloads\telephone.png" alt="" width="40">
+                </a>
+
+                <a href="https://github.com/Savitha26711" target="_blank">
+                    <img src="C:\Users\valli\Downloads\github.png" alt="" width="40">
+                </a>
+        
+                <a href="https://www.linkedin.com/in/savitha-mohan/" target="_blank">
+                    <img src="C:\Users\valli\Downloads\linkedin.png" alt="" width="40">
+                </a>
+    
+                <a href="mailto:vallisavitha35@gmail.com">
+                    <img src="C:\Users\valli\Downloads\mail.png" alt="" width="40">
+                </a>
+            </div>
+        </footer>
+        
+    
+       
+        
+        </nav>
+    </footer>
+
+</body>
+</html>
